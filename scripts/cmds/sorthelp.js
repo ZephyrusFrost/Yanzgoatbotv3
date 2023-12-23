@@ -4,7 +4,7 @@ module.exports = {
 		version: "1.1",
 		author: "NTKhang",
 		countDown: 5,
-		role: 0,
+		role: 2,
 		shortDescription: {
 			vi: "Sắp xếp danh sách help",
 			en: "Sort help list"

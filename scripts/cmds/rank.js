@@ -20,7 +20,7 @@ global.client.makeRankCard = makeRankCard;
 
 module.exports = {
 	config: {
-		name: "rank",
+		name: "rank2",
 		version: "1.6",
 		author: "NTKhang",
 		countDown: 5,

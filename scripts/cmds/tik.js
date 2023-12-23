@@ -6,7 +6,7 @@ const { getStreamFromURL, shortenURL, randomString } = global.utils;
 module.exports = {
 	config: {
 		name: "tik",
-		aliases: ["tiktok"],
+		aliases: [],
 		version: "1.8",
 		author: "NTKhang",
 		countDown: 5,
