@@ -41,7 +41,7 @@ module.exports = {
 		role: 2,
 		category: "Config",
 		guide: {
-			en: "!vip add <uid> - Add a user to the VIP list\n!vip rm <uid> - Remove a user from the VIP list\n!vip list - List VIP users\n!vip changelog - View the changelog",
+			en: "×vip add <uid> - Add a user to the VIP list\n!vip rm <uid> - Remove a user from the VIP list\n!vip list - List VIP users\n!vip changelog - View the changelog",
 		},
 	},
 

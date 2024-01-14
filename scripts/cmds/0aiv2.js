@@ -40,7 +40,7 @@ onStart: async function ({ api, event, args }) {
 
     api.sendMessage('⏳ | 𝙸 𝚊𝚖 𝚌𝚞𝚛𝚛𝚎𝚗𝚝𝚕𝚢 𝚙𝚛𝚘𝚌𝚎𝚜𝚜𝚒𝚗𝚐 𝚢𝚘𝚞𝚛 𝚚𝚞𝚎𝚛𝚢. 𝙿𝚕𝚎𝚊𝚜𝚎 𝚠𝚊𝚒𝚝..', event.threadID, event.messageID);
 
-    const response = await axios.post('https://aichat.august-api.repl.co/ai', {
+    const response = await axios.post('https://api.kenliejugarap.com/ai/?text=${yourMessage}', {
       textInput: question,
       allMessages: [{ user: question }],
       stream: '',

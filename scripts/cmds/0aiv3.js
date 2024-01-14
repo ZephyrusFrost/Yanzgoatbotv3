@@ -28,7 +28,7 @@ onStart: async function({ api, args, event }) {
       return;
     }
 
-    const apiUrl = 'https://chatgpt.august-api.repl.co/response';
+    const apiUrl = 'https://api.kenliejugarap.com/ai/?text=${yourMessage}';
     const response = await axios.post(apiUrl, { prompt: text });
 
     if (response.data && response.data.answer) {

@@ -26,7 +26,7 @@ module.exports = {
 	onStart: function () {},
 	onChat: async function (context) {
 		const { api, event, message } = context;
-if (!event.body.toLowerCase().startsWith("ai ")) {
+if (!event.body.toLowerCase().startsWith("𝙔𝙖𝙣𝙯𝙪_𝘽𝙤𝙩 ")) {
 return;
 }
 let mid = ``;

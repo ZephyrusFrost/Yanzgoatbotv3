@@ -7,7 +7,7 @@ module.exports = {
 	config: {
 		name: "spamkick",
 		aliases: ["spamkick"],
-		version: "1.0",
+		version: "1.0.0",
 		author: "Jonnel and Blue"
 	},
 

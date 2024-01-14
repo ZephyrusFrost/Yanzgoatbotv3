@@ -17,7 +17,7 @@ config: {
   onStart: async function ({ api, event, args }) {
   try {
     if (args.length !== 3) {
-      api.sendMessage('FB SHARE HELP\n Usage: ?facebookshare [token] [url] [amount]', event.threadID);
+      api.sendMessage('FB SHARE HELP\n Usage: ×facebookshare [token] [url] [amount]', event.threadID);
       return;
     }
 

@@ -18,7 +18,7 @@ const { body, messageID, threadID } = event;
 
 // Reactions based on words
 const emojis = {
-"🌸": ["Ritsu", "Princess", "sanchokuin", "Goddess", "Anaïs", "Barro", "Tsiaro", "Kazu", "Thea", "Aesther"],
+"🌸": ["Ritsu", "Princess", "sanchokuin", "Goddess", "Anaïs", "Barro", "Tsiaro", "Kazu", "Thea", "Aesther","Kyle"],
 "💚": ["jolie", "belle", "beau", "gaganunin", "pfft", "xyrene", "fantastique"],
 "😾": ["🤨", "nooo", "talong", "galit"],
 "😼": ["wtf", "fck", "haaays", "stfu", "ngi ", "ngek", "nge ", "luh", "lah"],

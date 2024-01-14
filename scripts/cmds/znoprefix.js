@@ -39,16 +39,23 @@ case "goodmorning":
           await api.setMessageReaction("🌸", event.messageID, event.threadID, api);
 case "prefix2":
           message.reply({
-            body: "Hello, My Lord My Prefix Is » ? «",
+            body: "Hello, My Lord My Prefix Is » × «",
             attachment: fs.createReadStream("scripts/cmds/noprefix/garou.gif"),
           });
           await api.setMessageReaction("🪐", event.messageID, event.threadID, api);
   case "owner":
           message.reply({
-            body: "📜 𝙊𝙬𝙣𝙚𝙧 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣:\n𝖭𝖺𝗆𝖾:Cliff Vincent \n𝖦𝖾𝗇𝖽𝖾𝗋:Male\n𝖠𝗀𝖾: Unknown\nFb:https://www.facebook.com/swordigo.swordslush",
+            body: "📜 𝙊𝙬𝙣𝙚𝙧 𝙄𝙣𝙛𝙤𝙧𝙢𝙖𝙩𝙞𝙤𝙣:\n𝖭𝖺𝗆𝖾:KYLE BAIT-IT \n𝖦𝖾𝗇𝖽𝖾𝗋:Male\n𝖠𝗀𝖾: 19\nFbhttps://www.facebook.com/Itzkyleigopjk",
             attachment: fs.createReadStream("scripts/cmds/noprefix/cliff.mp4"),
           });
-          await api.setMessageReaction("😙", event.messageID, event.threadID, api);
+          await 
+            api.setMessageReaction("😎", event.messageID, event.threadID, api);
+            case "shoti":
+                    message.reply({
+                      body: "𝗺𝗴𝗮 𝘀𝗵𝗼𝘁𝗶 𝗻𝗶 𝗺𝗮𝘀𝘁𝗲𝗿 𝗞𝘆𝗹𝗲.",
+                      attachment: fs.createReadStream("scripts/cmds/noprefix/cliff.mp4"),
+                    });
+                    await            api.setMessageReaction("😍", event.messageID, event.threadID, api);
    default:
           return;
       }

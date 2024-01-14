@@ -30,9 +30,9 @@ module.exports = {
 			error: 'Simsimi đang bận, bạn hãy thử lại sau'
 		},
 		en: {
-			turnedOn: '✅ | Turned on Anya successfully!',
-			turnedOff: '✅ | Turned off Anya successfully!',
-			chatting: 'Already Chatting with hina...',
+			turnedOn: '✅ | Turned on Yanzu successfully!',
+			turnedOff: '✅ | Turned off Yanzu successfully!',
+			chatting: 'Already Chatting with Yanzu...',
 			error: 'What?🙂'
 		}
 	},

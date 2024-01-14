@@ -8,10 +8,10 @@ module.exports = {
 				category: "No Prefix",
 		},
 		onReply: async function ({ event, message }) {
-				const triggerPhrases = ["Ai", "hello", "loid", "bot"];
+				const triggerPhrases = ["Ai", "hello", "kyle", "bot"];
 				if (event.body && triggerPhrases.includes(event.body.toLowerCase())) {
 						return () => {
-								return message.reply("Hello, there how may I help you today?\n please use $loid for any questions, \n or,\n\n use help for more information");
+								return message.reply("Hello, there how may I help you today?\n please use ×kyle for any questions, \n or,\n\n use help for more information");
 						}
 				}
 		},

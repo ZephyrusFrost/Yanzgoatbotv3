@@ -4,7 +4,7 @@ module.exports = {
 	config: {
 		name: "chat",
 		version: "1.2",
-		author: "Samuel",
+		author: "Samuel",//so many errors
 		countDown: 5,
 		role: 0,
 		shortDescription: "Sammy",

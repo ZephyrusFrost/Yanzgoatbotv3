@@ -2,14 +2,14 @@ const axios = require('axios');
 
 module.exports = {
 	config: {
-		name: 'kreysh2',
-		aliases: ['bot/kreysh'],
+		name: 'yanzu2',
+		aliases: ['bot/yanzu2'],
 		version: '1.1',
 		author: 'Samir',
 		countDown: 5,
 		role: 0,
-		shortDescription: 'kreysh',
-		longDescription: 'Chat with kreysh',
+		shortDescription: 'yanzu',
+		longDescription: 'Chat with yanzu',
 		category: 'funny',
 		guide: {
 			body: '   {pn} {{[on | off]}}: enable/disable kreysh'
@@ -22,7 +22,7 @@ module.exports = {
 	onStart: async function ({ args, threadsData, message, event }) {
 		if (args[0] == 'on' || args[0] == 'off') {
 			await threadsData.set(event.threadID, args[0] == "on", "settings.kreysh");
-			return message.reply(`Already ${args[0] == "on" ? "on" : "off"} kreysh in your group`);
+			return message.reply(`Already ${args[0] == "on" ? "on" : "off"} Yanzu in your group`);
 		}
 		else if (args[0]) {
 			const yourMessage = args.join(" ");
@@ -31,7 +31,7 @@ module.exports = {
 				return message.reply(`${responseMessage}`);
 			}
 			catch (err) {
-				return message.reply("kreysh is busy, please try again later");
+				return message.reply("Yanzu is busy, please try again later");
 			}
 		}
 	},
@@ -40,10 +40,10 @@ module.exports = {
 		if (args.length > 1 && !isUserCallCommand && await threadsData.get(event.threadID, "settings.kreysh")) {
 			try {
 				const responseMessage = await getMessage(args.join(" "));
-				return message.reply(`${responseMessage}\n🐣 kreysh answer you!`);
+				return message.reply(`${responseMessage}\nYanzu answer you!`);
 			}
 			catch (err) {
-				return message.reply("kreysh is busy, please try again later");
+				return message.reply("yanzu is busy, please try again later");
 			}
 		}
 	}

@@ -20,7 +20,7 @@ langs: {
   onStart: async function ({ api, event }) {
   
   api.sendMessage(`⏱️ | Video is sending please wait.`, event.threadID, event.messageID);
-axios.get('https://apivideo.saikidesu-support.repl.co/tiktok?apikey=opa').then(res => {
+axios.get('').then(res => {
   let ext = res.data.url.substring(res.data.url.lastIndexOf(".") + 1);
   let callback = function () {
           api.sendMessage({

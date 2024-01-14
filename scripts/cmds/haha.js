@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "hahaha") return message.reply("SA LETRANG H HAHAHAHA HAPPY KA MAGLINIS KA NA BAKA LUMIPAD PA WALIS SA HARAPAN MO!");
+	if (event.body && event.body.toLowerCase() == "hahaha") return message.reply("happy mo naman idol HAHAHAHAHA what if chat mo owner ko 👇https://www.facebook.com/Itzkyleigopjk  PARA MAS SASAYA KA LALO HAHAHAHA.");
 }
 };

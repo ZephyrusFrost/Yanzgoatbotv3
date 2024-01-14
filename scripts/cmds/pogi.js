@@ -1,8 +1,8 @@
 module.exports = {
 	config: {
 			name: "pogi",
-			version: "1.0",
-			author: "Jaychris Garcia",
+			version: "1.0.0",
+			author: "Kyle",
 			countDown: 5,
 			role: 0,
 			shortDescription: "No Prefix",
@@ -15,6 +15,6 @@ onChat: async function({
 	message,
 	getLang
 }) {
-	if (event.body && event.body.toLowerCase() == "pogi") return message.reply("pogi mo talaga par. btw, bakit mukha kang paa?");
+	if (event.body && event.body.toLowerCase() == "pogi") return message.reply("mas pogi admin ko na si Kyle maraming babae naghahabol nun e, pero hinde lang nila pinahalata na crush nila master ko kasi nahihiya sila baka mah reject nanamn sila ky master Kyle."));
 }
 };

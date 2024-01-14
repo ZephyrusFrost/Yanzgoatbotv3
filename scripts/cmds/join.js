@@ -3,14 +3,14 @@ const chalk = require('chalk');
 module.exports = {
 	config: {
 		name: "join",
-		aliases: [],
+		aliases: ['join', 'en'],
 		version: "1.0",
-		author: "",
+		author: "Kyle",
 		countDown: 5,
 		role: 2,
 		shortDescription: "Join bot gc",
 		longDescription: "",
-		category: "",
+		category: "join",
 		guide: "{pn}"
 	},
 

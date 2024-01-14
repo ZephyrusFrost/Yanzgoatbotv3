@@ -8,7 +8,7 @@ module.exports = {
     aliases: ["khaby"],
     version: "1.0",
     author: "Sanddddddyyyyyyyy",
-    countDown: 5,
+    Countdown: 5,
     role: 0,
     shortDescription: "make khaby meme",
     longDescription: "",

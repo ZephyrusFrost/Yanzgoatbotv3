@@ -45,6 +45,26 @@
     },
     "antiout": {
       "deltaNext": 5
+    },
+    "cumshot": {},
+    "gay": {
+      "deltaNext": 5
+    },
+    "notice": {
+      "delayPerGroup": 250
+    },
+    "pokebot": {
+      "deltaNext": 5
+    },
+    "qr": {},
+    "rank2": {
+      "deltaNext": 5
+    },
+    "resend": {
+      "deltaNext": 5
+    },
+    "test": {
+      "deltaNext": 5
     }
   },
   "envEvents": {

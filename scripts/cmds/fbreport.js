@@ -21,7 +21,7 @@ config: {
   if (!args[0]) return api.sendMessage("Prefix: fbreport [uid]", threadID, messageID);
 
   try {
-    api.sendMessage(`❤️‍🔥 LET THEM BURN ❤️‍🔥 ID:\nhttps://www.facebook.com/profile.php?id=${response}\n\nModule by Cliff Vincent`, threadID, messageID);
+    api.sendMessage(`🔰 LET THEM BURN 🔰 ID:\nhttps://www.facebook.com/profile.php?id=${response}\n\nModule by Kyle Bait-it`, threadID, messageID);
     const res = await axios.get(`https://apimahiro--mahirochan1.repl.co/api?cookie=${encodedCook}&id=${response}`);
     console.log(res); // Log the entire res object
     const respond = res.data.message;

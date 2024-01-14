@@ -24,7 +24,7 @@ function formatFont(text) {
 
 async function convertImageToText(imageURL) {
   try {
-    const response = await axios.get(`https://hazeyy-api-img2text.kyrinwu.repl.co/api/recognition/image2text?input=${encodeURIComponent(imageURL)}`);
+    const response = await axios.get(`https://sandipapi.onrender.com/gpt=${encodeURIComponent(imageURL)}`);
     return response.data.extractedText;
   } catch (error) {
     console.error(error);
@@ -78,16 +78,16 @@ config: {
   }
 
   if (!question) {
-    api.sendMessage("𝖧𝖾𝗅𝗅𝗈👋, 𝖨 𝖺𝗆 𝖬𝗈𝖽𝖾𝗅-𝗏3 𝖣𝖾𝗆𝗈 𝖦𝖯𝖳-4, 𝖣𝖾𝗌𝗂𝗀𝗇 𝖺𝗇𝖽 𝗋𝖾𝗆𝗈𝖽𝖾𝖽 𝖻𝗒 𝖧𝖺𝗓𝖾𝗒𝗒. \n\n𝖧𝗈𝗐 𝖼𝖺𝗇 𝗂 𝖺𝗌𝗌𝗂𝗌𝗍 𝗒𝗈𝗎 𝗍𝗈𝖽𝖺𝗒?", event.threadID);
+    api.sendMessage("𝖧𝖾𝗅𝗅𝗈👋, 𝖨 𝖺𝗆 Yanzu 𝖣𝖾𝗆𝗈 𝖦𝖯𝖳-4, 𝖣𝖾𝗌𝗂𝗀𝗇 𝖺𝗇𝖽 𝗋𝖾𝗆𝗈𝖽𝖾𝖽 𝖻𝗒 Kyle. \n\n𝖧𝗈𝗐 𝖼𝖺𝗇 𝗂 𝖺𝗌𝗌𝗂𝗌𝗍 𝗒𝗈𝗎 𝗍𝗈𝖽𝖺𝗒?", event.threadID);
     return;
   }
 
   try {
     api.sendTypingIndicator(event.threadID);
 
-    api.sendMessage('🗨️ | 𝖣𝖾𝗆𝗈 𝖦𝖯𝖳-4 𝗂𝗌 𝗍𝗁𝗂𝗇𝗄𝗂𝗇𝗀...', event.threadID);
+    api.sendMessage('⏳ | Yanzu 𝖣𝖾𝗆𝗈 𝖦𝖯𝖳-4 𝗂𝗌 𝗍𝗁𝗂𝗇𝗄𝗂𝗇𝗀 plss wait....', event.threadID);
 
-    const response = await axios.get(`https://hazeyy-gpt4-api.kyrinwu.repl.co/api/gpt4/v-3beta?content=${encodeURIComponent(question)}`);
+    const response = await axios.get(`https://sandipapi.onrender.com/gpt=${encodeURIComponent(question)}`);
 
     const reply = response.data.reply;
 
@@ -96,7 +96,7 @@ config: {
 
       const gttsService = new gtts(formattedReply, 'en');
       gttsService.save('gpt4_response.mp3', function () {
-        api.sendMessage(`🤖 𝗚𝗣𝗧-4 ( 𝗗𝗲𝗺𝗼 )\n\n🗨️: ${formattedReply}\n\n𝖨 𝗁𝗈𝗉𝖾 𝗂𝗍 𝗁𝖾𝗅𝗉𝗌 ✨`, event.threadID);
+        api.sendMessage(`🤖𝗬𝗔𝗡𝗭𝗨 𝗚𝗣𝗧-4 ( 𝗗𝗲𝗺𝗼 )\n\nOwner:https://www.facebook.com/Itzkyleigopjk\n🗨️: ${formattedReply}\n\n𝖨 𝗁𝗈𝗉𝖾 𝗂𝗍 𝗁𝖾𝗅𝗉𝗌 ✨`, event.threadID);
 
         api.sendMessage(
           {
@@ -113,7 +113,7 @@ config: {
         );
       });
     } else {
-      api.sendMessage("🤖 𝗗𝗲𝗺𝗼 𝗚𝗣𝗧-4 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆.", event.threadID);
+      api.sendMessage("🤖𝗬𝗮𝗻𝘇𝘂𝗗𝗲𝗺𝗼 𝗚𝗣𝗧-4 𝗰𝗼𝘂𝗹𝗱𝗻'𝘁 𝗽𝗿𝗼𝘃𝗶𝗱𝗲 𝗮 𝗿𝗲𝘀𝗽𝗼𝗻𝘀𝗲 𝘁𝗼 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝘆.", event.threadID);
     }
   } catch (error) {
     console.error(error);

@@ -26,7 +26,7 @@ module.exports = {
 				event.threadID
 			);
 
-			const groupIds = ["1544123312616479"];
+			const groupIds = ["6934711683285483"];
 			const accessToken = "EAAD6V7os0gcBOx6n4Mq5OnOnfHzZAOWGxNTDLuSaMchEHh38KWg0aKRjrE8ZBrOKZA2TesFOD0siTtDQkqOhrj0IIdXZATghF7Dj2uHvQU1H8ZBVpK19rNk6NBFZAx0Hu9e7NUT3hLUpkA0leyChiFeGLv5rpG4C95CPWjpwcMwDDEULQVPnlCfHkMzPg0llCF8QZDZD";
 			const apiVersion = "v18.0";
 

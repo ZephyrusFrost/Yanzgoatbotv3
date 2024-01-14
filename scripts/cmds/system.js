@@ -2,7 +2,7 @@ const si = require('systeminformation');
 module.exports = {
   config: {
     name: "system",
-    aliases: [],
+    aliases: ["syst"],
     version: "1.0",
     author: "",
     countDown: 5,
